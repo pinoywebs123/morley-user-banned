@@ -14,3 +14,5 @@ if(\Auth::user()->status_id == 0){
     return 'User is banned';
 }
 
+<h2>Visit host/users or http://127.0.0.1:8000/users</h2>
+
