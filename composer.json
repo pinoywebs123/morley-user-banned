@@ -1,0 +1,26 @@
+{
+    "name": "morley/banned",
+    "description": "User allowed to banned and unbanned users.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morls",
+            "email": "moravel752@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "morley\\banned\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "morley\\banned\\BannedServiceProvider"
+            ]
+        }
+    }
+}
